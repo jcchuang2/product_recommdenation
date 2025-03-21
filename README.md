@@ -7,10 +7,13 @@ Presentation: [Recording](https://drive.google.com/file/d/1kbVcB59W6N5vQX86bweIF
 Report: [Link](link)
 
 ## Instructions
-The data source can be found [here](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset?resource=download).
+The original data source can be found on [Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset?resource=download).
 
 ### Relational Database
 Use `relational_db.sql` and `prod_rec_demo.sql`
 
 ### Graph Database
-Using the operations in `collaborative_filtering.cypher` and `pagerank.cypher`
+1. Create project in Neo4j Desktop.
+2. Add DBMS and add `transactions_brand(products).csv`, `transactions_brand(ratings).csv`, and `transactions_brand(users).csv` to the project import folder.
+3. Start the DBMS and open Neo4j Browser.
+4. In the browser, commands and queries found in `collaborative_filtering.cypher` and `pagerank.cypher`.
