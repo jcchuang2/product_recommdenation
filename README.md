@@ -32,7 +32,9 @@ The project datasets can be found in `data/`, where `transactions_brand(products
 ## Instructions
 
 ### Relational Database
-Use `relational_db.sql` and `prod_rec_demo.sql`
+1. Use `relational_db.sql` to create the databases
+2. We used `transactions_brand.csv` for the products and transactions tables. Use `transactions_brand(users).csv` for the users table. 
+3. Run `prod_rec_demo.sql` for example queries. 
 
 ### Graph Database
 1. Create project in Neo4j Desktop.
