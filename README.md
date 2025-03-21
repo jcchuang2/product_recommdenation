@@ -6,6 +6,9 @@ Presentation: [Recording](https://drive.google.com/file/d/1kbVcB59W6N5vQX86bweIF
 
 Report: [Link](link)
 
+## Summary
+Using relational and graph data methods, we aim to improve online store sales through enhanced product recommendation. We used Amazon sales data and performed data analysis, such as finding the top rated items, sales per category, trends in product prices, and upselling items. For product recommendation, we looked at a collaborative filtering model, a personalized pagerank model, and lastly, a hybrid model, combining the two previous models. These methods were able to successfully capture item popularity and personalized recommendations, which will ultimately lead to improvement in sales.
+
 ## Data
 The original data source can be found on [Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset?resource=download).
 
